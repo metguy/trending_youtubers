@@ -1,7 +1,7 @@
 # *Trending YouTuber Data*
 ![alt text](https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg)
 ### Project Overview
-Here in this project we'll be exploring the data analysis of the top YouTubers 6 months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br>
+Here in this project we'll be exploring the data analysis of the Top YouTubers 6 months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br>
 ***(Will be adding dictionary here for column abbreviations)***
 ### Install and Setup
 For this project, I utilized Jupyter Notebook as my editor and Git as the terminal to setup the virtual environment. I recommend downloading both if not already installed on your system. 
@@ -10,7 +10,7 @@ For this project, I utilized Jupyter Notebook as my editor and Git as the termin
 ### Clone Project
 1. Click on my highlighted repo and navigate to my github [respository](https://github.com/metguy/trending-youtube-videos).
 2. From there, click on the green box that says, "**Code**", then under **HTTPS**, copy the url.
-3. Open your *command prompt* (Windows users) or *terminal* (Linux/Mac users) and type the command, "**jupyter notebook**" <br> It should pull up in your web browser after this.
+3. Open your *command prompt* (Windows users) or *terminal* (Linux/Mac users) and type the command: <br> "**jupyter notebook**" <br> It should pull up in your web browser after this command.
 4. Navigate to the directory you wish to clone the repo into. I recommend creating a folder with my username and choosing this as your directory. The directory could end up looking something like this: "**Documents/metguys_project**"
 5. In Jupyter Notebook, click on the following from the top: *File>New>Terminal*
 6. In the terminal under jupyter notebook, check to make sure you're in the directory that you created to clone the repo into.
@@ -26,15 +26,17 @@ Be sure to create and activate the virtual environment before running the projec
 5. In the git terminal, type the command, "**python -m venv .venv**"
 6. Now to activate the virtual environment type, "**source .venv/Scripts/activate**"
 7. You should now see **(.venv)** below your previous command.
-8. You can now run the project worry free!
-9. When done reviewing, return to the git terminal and simply type, "**deactivate**". <br>
+8. In the terminal type: <br> "**pip install -r requirements.txt**"
+9. You can now run the project worry free!
+10. When done reviewing, return to the git terminal and simply type, "**deactivate**". <br>
 #### For Linux/Mac:
 1. Locate and launch the Bash terminal by searching for it in your desktop menu.
 2. In the terminal type, "**python3 -m venv .venv**"
 3. Activate the virtual environment by typing, "**source .venv/bin/activate**"
 4. You should now see **(.venv)** after your previous command.
-5. You can now run the project worry free!
-6. When done reviewing, return to the terminal and simply type, "**deactivate**". <br>
+5. In the terminal type: <br> "**pip install -r requirements.txt**"
+6. You can now run the project worry free!
+7. When done reviewing, return to the terminal and simply type, "**deactivate**". <br>
 #### Notable Features
 * This README for starters!
 * I read in two csv files using pandas.
