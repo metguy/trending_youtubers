@@ -37,7 +37,7 @@ Be sure to create and activate the virtual environment before running the projec
 5. In the terminal type: <br> "**pip install -r requirements.txt**"
 6. You can now run the project worry free!
 7. When done reviewing, return to the terminal and simply type, "**deactivate**". <br>
-#### Notable Features
+### Notable Features
 * This README for starters!
 * I read in two csv files using pandas.
 * Cleaned and preped both datasets.
@@ -46,19 +46,48 @@ Be sure to create and activate the virtual environment before running the projec
 * The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
 #### Quick Note
 I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better readability and understanding while reviewing the work. I hope you enjoy the project!
-#### Sources
+### Sources
 Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br> <br>
-<u>Kaggle</u>: <br> [Top YouTubers Worldwide](https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide) <br>
+<u>Kaggle</u>: <br> 
+[Top YouTubers Worldwide](https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide) <br>
 [Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023) <br> <br>
+<u>YouTube</u>: <br>
+[SET India](https://www.youtube.com/channel/UCpEhnqL0y41EpW2TvWAHD7Q) <br>
+[Kids Diana Show](https://www.youtube.com/channel/UCk8GzjMOrta8yxDcKfylJYw) <br>
+[PewDiePie](https://www.youtube.com/user/pewdiepie) <br>
+[Like Nastya](https://www.youtube.com/channel/UCJplp5SjeGSdVdwsfb9Q7lQ) <br>
+[Vlad and Niki](https://www.youtube.com/c/VladandNiki) <br>
+[BLACKPINK](https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A) <br>
+[Goldmines](https://www.youtube.com/channel/UCyoXW-Dse7fURq30EWl_CUA) <br>
+[5-Minute Crafts](https://www.youtube.com/channel/UC295-Dw_tDNtZXFeAPAW6Aw) <br>
+[Zee TV](https://www.youtube.com/channel/UCppHT7SZKKvar4Oc9J4oljQ) <br>
+[Colors TV](https://www.youtube.com/channel/UC55IWqFLDH1Xp7iu1_xknRA) <br>
+[El Reino Infantil](https://www.youtube.com/c/elreinoinfantil) <br>
+[Dude Perfect](https://www.youtube.com/channel/UCRijo3ddMTht_IHyNSNXpNQ) <br>
+[Infobells - Hindi](https://www.youtube.com/channel/UC1ciY6kR3yj3kaKZ6R7ewAg) <br>
+[Marshmello](https://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ) <br>
+[YRF](https://www.youtube.com/channel/UCbTLwN10NoCU4WDzLf1JMOA) <br>
+[LooLoo Kids](https://www.youtube.com/channel/UC4NALVCmcmL5ntpV0thoH6w) <br>
+[Get Movies](https://www.youtube.com/@getmovies) <br>
+[Shemaroo](https://www.youtube.com/channel/UCF1JIbMUs6uqoZEY1Haw0GQ) <br>
+[Badabun](https://www.youtube.com/@badabunOficial) <br>
+[SonyMusicIndiaVEVO](https://www.youtube.com/@sonymusicindiaVEVO) <br>
+[Toys and Colors](https://www.youtube.com/channel/UCgFXm4TI8htWmCyJ6cVPG_A) <br>
+[A4](https://www.youtube.com/@A4a4a4a4) <br>
+[ARY Digital HD](https://www.youtube.com/channel/UC4JCksJF76g_MdzPVBJoC3Q) <br>
+[JuegaGerman](https://www.youtube.com/channel/UCYiGq8XF7YQD00x7wAd62Zg) <br>
+[Mikecrack](https://www.youtube.com/Mikecrack) <br>
+[Bad Bunny](https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q) <br>
+[Voot Kids](https://www.youtube.com/channel/UCJg19noZp7-BYIGvypu_cow) <br> <br>
 <u>SPEAKRJ Stats</u>: <br> 
 [BLACKPINK](https://www.speakrj.com/audit/report/UCOmHUn--16B90oW2L6FRR3A/youtube) <br>
-[Justin Bieber](https://www.speakrj.com/audit/report/UCIwFjwMjI0y7PDBVEO9-bkQ/youtube) <br>
-[Taylor Swift](https://www.speakrj.com/audit/report/UCqECaJ8Gagnn7YCbPEzWH6g/youtube) <br>
-[Ed Sheeran](https://www.speakrj.com/audit/report/UC0C-w0YjGpqDXGB8IHb662A/youtube) <br>
 [Goldmines](https://www.speakrj.com/audit/report/UCs570zdFq_NNA5OcV8chnHw/youtube/summary/2023-07-01/2023-07-31) <br>
 [5-Minute Crafts](https://www.speakrj.com/audit/report/UC57XAjJ04TY8gNxOWf-Sy0Q/youtube/summary/2023-07-01/2023-07-31) <br>
+[Justin Bieber](https://www.speakrj.com/audit/report/UCIwFjwMjI0y7PDBVEO9-bkQ/youtube) <br>
 [T-Series Bhakti Sagar](https://www.speakrj.com/audit/report/UCaayLD9i5x4MmIoVZxXSv_g/youtube/summary/2023-07-01/2023-07-30) <br>
 [LooLoo Kids - Nursery Rhymes and Children's Songs](https://www.speakrj.com/audit/report/UC4NALVCmcmL5ntpV0thoH6w/youtube/summary/2023-07-01/2023-07-31) <br>
+[Taylor Swift](https://www.speakrj.com/audit/report/UCqECaJ8Gagnn7YCbPEzWH6g/youtube) <br>
+[Ed Sheeran](https://www.speakrj.com/audit/report/UC0C-w0YjGpqDXGB8IHb662A/youtube) <br>
 [Badabun](https://www.speakrj.com/audit/report/UCYWOjHweP2V-8kGKmmAmQJQ/youtube/summary/2023-07-01/2023-07-31) <br>
 [A4](https://www.speakrj.com/audit/report/UC2tsySbe9TNrI-xh2lximHA/youtube/summary/2023-07-01/2023-07-31) <br>
 [Bad Bunny](https://www.speakrj.com/audit/report/UCiY3z8HAGD6BlSNKVn2kSvQ/youtube/summary/2023-07-01/2023-07-31) <br> <br>
@@ -68,4 +97,6 @@ Here I've listed the sources for the uncleaned datasets I used in this project; 
 [Taylor Swift](https://hypeauditor.com/youtube/UCqECaJ8Gagnn7YCbPEzWH6g/) <br>
 [Ed Sheeran](https://hypeauditor.com/youtube/UC0C-w0YjGpqDXGB8IHb662A/) <br> <br>
 <u>Worldometer</u>: <br>
-[Puerto Rico Pop.](https://www.worldometers.info/world-population/puerto-rico-population/#google_vignette)
+[Puerto Rico Pop.](https://www.worldometers.info/world-population/puerto-rico-population/#:~:text=Puerto%20Rico%202023%20population%20is,(and%20dependencies)%20by%20population.) <br>
+[Mexico Pop.](https://www.worldometers.info/world-population/mexico-population/#:~:text=Mexico%202023%20population%20is%20estimated,(and%20dependencies)%20by%20population.) <br>
+[Belarus Pop.](https://www.worldometers.info/demographics/belarus-demographics/) <br>
