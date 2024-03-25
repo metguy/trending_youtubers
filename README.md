@@ -38,14 +38,17 @@ Be sure to create and activate the virtual environment before running the projec
 6. You can now run the project worry free!
 7. When done reviewing, return to the terminal and simply type, "**deactivate**". <br>
 ### Notable Features
-* This README for starters!
-* I read in two csv files using pandas.
-* Cleaned and preped both datasets.
-* Then joined the datasets using pandasql.
-* I utilized Tableau to visualize my insights and give a better overview of the results.
+* Annotated code in Jupyter Notebook, wrote clear code comments, and introduced this README section for better readability.
+* Read in two csv files using pandas.
+* Cleaned and prepped both datasets.
+* Then concatenated the datasets using pandas.
+* I used Matplotlib and Seaborn libraries to visualize my insights and give a better overview of the results.
 * The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
 #### Quick Note
-I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better readability and understanding while reviewing the work. I hope you enjoy the project!
+I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better understanding while reviewing the work. I hope you enjoy the project!
+### Future Goals
+1. I'd like to add a Tableau Dashboard, creating some visualizations with it on my combined dataset.
+2. Utilize an API or scrape data from a website for YouTuber stats half a year from now to continue doing comparisons on the top 50 YouTubers.
 ### Sources
 Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br> <br>
 <u>Kaggle</u>: <br> 
