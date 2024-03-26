@@ -2,7 +2,9 @@
 ![alt text](https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg)
 ### Project Overview
 Here in this project we'll be exploring the data analysis of the Top YouTubers 6 months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br>
-***(Will be adding dictionary here for column abbreviations)***
+#### Click the link below for a quick look at my Tableau Dashboard: <br>
+* [YouTuber Visuals](https://public.tableau.com/views/YouTuberVisuals/YouTuberVisuals?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) <br> <br>
+***(Will be adding dictionary below for column abbreviations)*** <br>
 ### Install and Setup
 For this project, I utilized Jupyter Notebook as my editor and Git as the terminal to setup the virtual environment. I recommend downloading both if not already installed on your system. 
 * Click [here](https://github.com/git-guides/install-git) to install Git.
@@ -41,14 +43,15 @@ Be sure to create and activate the virtual environment before running the projec
 * Annotated code in Jupyter Notebook, wrote clear code comments, and introduced this README section for better readability.
 * Read in two csv files using pandas.
 * Cleaned and prepped both datasets.
-* Then concatenated the datasets using pandas.
-* I used Matplotlib and Seaborn libraries to visualize my insights and give a better overview of the results.
+* Concatenated the datasets using pandas.
+* Utilized Tableau, Matplotlib, and/or Seaborn libraries to visualize my insights and give a better overview of the results.
 * The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
 #### Quick Note
 I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better understanding while reviewing the work. I hope you enjoy the project!
 ### Future Goals
-1. I'd like to add a Tableau Dashboard, creating some visualizations with it on my combined dataset.
-2. Utilize an API or scrape data from a website for YouTuber stats half a year from now to continue doing comparisons on the top 50 YouTubers.
+This project will be ongoing as I plan to add more visuals but also add in new data six months from now to get a more indepth analysis.
+1. I'd like to add more worksheets to my Tableau Dashboard, highlighting a couple more visualizations with the combined dataset.
+2. Extract data using an API or by other scrape methods from a website on the top 50 YouTuber stats in half a year.
 ### Sources
 Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br> <br>
 <u>Kaggle</u>: <br> 
