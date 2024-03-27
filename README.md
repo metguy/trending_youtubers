@@ -95,7 +95,7 @@ We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in 
 |United States|17|
 |South Korea|3|
 |Pakistan|2|
-|Russi|2|
+|Russia|2|
 |Argentina|1|
 |Belarus|1|
 |Brazil|1|
