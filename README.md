@@ -73,7 +73,7 @@ Be sure to create and activate the virtual environment before running the projec
 6. You can now run the project worry free!
 7. When done reviewing, return to the terminal and simply type: `deactivate` <br>
 
-### To Run Project:
+### To Run Project
 After completing the steps above, open the **2023_YouTuber_Analysis.ipynb** notebook and at the top select: *Run>Restart kernel and run all cells*. Repeat this process for both **2024_YouTuber_Analysis** and **Combined_YouTuber_Analysis** notebooks. Then, look through the notebooks and see how it was all done!
 
 ### Notable Features
