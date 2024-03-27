@@ -9,7 +9,7 @@ Hi, y'all! In this project we'll be exploring the data analysis of the Top YouTu
 
 ### Data Dictionary
 I've listed two data dictionaries below giving a description on the column names and categories.
-|<p>**Column Titles**</p>|<p></p><p>**Description**</p>|
+|<p>**Column Title**</p>|<p></p><p>**Description**</p>|
 | :-: | :-: |
 |'23/'24 YouTubers|YouTubers of 2023/2024|
 |'23/'24 Subs|Subscriber count of each YouTuber|
@@ -81,7 +81,7 @@ After completing the steps above, open the **2023_YouTuber_Analysis.ipynb** note
 * Read in two csv files using pandas.
 * Cleaned and prepped both datasets.
 * Concatenated the datasets using pandas.
-* Utilized Tableau, and Matplotlib to visualize my insights and give a better overview of the results.
+* Utilized Tableau and Matplotlib to visualize my insights and give a better overview of the results.
 * The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
 
 #### Quick Note
@@ -172,6 +172,6 @@ Here I've listed the sources for the uncleaned datasets I used in this project; 
 [Mexico Pop.](https://www.worldometers.info/world-population/mexico-population/#:~:text=Mexico%202023%20population%20is%20estimated,(and%20dependencies)%20by%20population.) <br>
 [Belarus Pop.](https://www.worldometers.info/demographics/belarus-demographics/) <br>
 
-## Licenses
+## License
 For this github repository, the license used is an [MIT License](https://opensource.org/license/mit). <br>
 For the, "*Top YouTubers Worldwide*" csv used in this project, a [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) license was used.
