@@ -2,7 +2,7 @@
 ![alt text](https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg)
 
 ### Project Overview
-Here in this project we'll be exploring the data analysis of the Top YouTubers 6 months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
+Hi, y'all! In this project we'll be exploring the data analysis of the Top YouTubers six months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
 
 #### Click the link below for a quick look at my Tableau Dashboard: <br>
 * [YouTuber Visuals](https://public.tableau.com/views/YouTuberVisuals/YouTuberVisuals?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) <br> <br>
@@ -94,8 +94,8 @@ We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in 
 |India|19|
 |United States|17|
 |South Korea|3|
-|Russia|2|
 |Pakistan|2|
+|Russi|2|
 |Argentina|1|
 |Belarus|1|
 |Brazil|1|
