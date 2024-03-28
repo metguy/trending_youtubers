@@ -2,10 +2,13 @@
 ![alt text](https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg)
 
 ### Project Overview
-Hi, y'all! In this project we'll be exploring the data analysis of the Top YouTubers six months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
+Hi, y'all! In this project we'll be exploring the data analysis of the top 50 YouTubers six months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I do have a couple favorite YouTubers, myself! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
 
 #### Click the link below for a quick look at my Tableau Dashboard: <br>
 * [YouTuber Visuals](https://public.tableau.com/views/YouTuberVisuals/YouTuberVisuals?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) <br> <br>
+
+#### Quick Note
+I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better understanding for both newcomers and pros alike, while reviewing the work. I hope you enjoy the project! <br>
 
 ### Data Dictionary
 I've listed two data dictionaries below giving a description on the column names and categories.
@@ -84,9 +87,6 @@ After completing the steps above, open the **2023_YouTuber_Analysis.ipynb** note
 * Utilized Tableau and Matplotlib to visualize my insights and give a better overview of the results.
 * The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
 
-#### Quick Note
-I've added comments in the markdown cells throughout the setup of the project to explain the process taken within each step. This is to provide better understanding for both newcomers and pros alike, while reviewing the work. I hope you enjoy the project!
-
 ### Results and Evaluation
 We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in gaining a similar amount of subscribers, although one YouTuber stood out adding on an estimated total of 70,100,000 subscribers from then to now! That specific YouTuber being MrBeast. This blew my mind so I double checked the data and sure enough, the information is correct! Some other insights I gathered was which countries had the most popular YouTubers over this half year period, that being in order from most to least: <br> 
 |<p>**Country**</p>|<p></p><p>**Total YouTubers**</p>|
@@ -113,7 +113,7 @@ Another neat insight was into the most popular categories with Music & Dance bei
 
 ### Future Work
 This project will be ongoing as I plan to add more visuals but also add in new data six months from now to get a more indepth analysis on the trends.
-1. Go through and remove special characters in Jupyter Notebooks as best practice. This will entail me needing to recreate current Tableau visualizations, so it will be done after project deadline.
+1. Go through and remove special characters in Jupyter Notebooks as best practice. This will entail me needing to recreate current Tableau visualizations, update the code & recreate csv files, and update the README section. So I'll start  after project deadline.
 2. I'd like to add more worksheets to my Tableau Dashboard, creating visualizations with the columns '23 Uploads, '23 Video Views, '23 Pop, '24 Avg. Views, '24 Avg. Likes, and '24 Avg. Comments.
 3. Extract data using an API or by other scrape methods from a website on the top 50 YouTuber stats in half a year.
 
