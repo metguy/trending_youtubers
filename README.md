@@ -35,7 +35,7 @@ I've listed two data dictionaries below giving a description on the column names
 |Entertainment|In relation to a variety of categories such as challenges/react videos/gaming/random vlogs|
 |Sports|In relation to mainly sports|
 |Gaming|In relation to streaming live or non-live games|
-|DIY & Tutorials|In relation to do it yourself videos|
+|DIY & Tutorials|In relation to do-it-yourself videos|
 |News & Politics|In relation to mainly news & politics|
 
 ### Install and Setup
