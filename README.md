@@ -24,7 +24,8 @@ I've listed two data dictionaries below giving a description on the column names
 |'23 Pop.|Total population of the country|
 |'24 Avg. Views|Average number of views on the channel|
 |'24 Avg. Likes|Average number of likes on the channel|
-|'24 Avg. Comments|Average number of comments on the channel| <br>
+|'24 Avg. Comments|Average number of comments on the channel| 
+|Total_Subs_Gained|Total number of subscribers gained over the half year period|<br>
 
 |<p>**Category**</p>|<p></p><p>**Description**</p>|
 | :-: | :-: |
@@ -38,46 +39,62 @@ I've listed two data dictionaries below giving a description on the column names
 |News & Politics|In relation to mainly news & politics|
 
 ### Install and Setup
-For this project, I utilized Jupyter Notebook as my editor and Git as the terminal to setup the virtual environment. I recommend downloading both if not already installed on your system. 
-* Click [here](https://github.com/git-guides/install-git) to install Git.
+For this project, I utilized Jupyter Notebook as my editor and Git as the terminal to setup the virtual environment. You'll also need Python in order to run the program. I recommend downloading all of these if not already installed on your system. 
+* *If* you have Windows, click [here](https://github.com/git-guides/install-git) to install Git.
 * For intructions on installing Jupyter Notebook, click [here](https://docs.jupyter.org/en/latest/install/notebook-classic.html). <br>
+* Download Python [here](https://www.python.org/downloads/). <br>
+
+This project can also be ran in Google Colab. If you wish to do that instead, you can find more information on that by clicking on the links [here](https://saturncloud.io/blog/how-can-i-run-notebooks-of-a-github-project-in-google-colab/) and [there](https://medium.com/@steve7an/how-to-test-jupyter-notebook-from-github-via-google-colab-7dc4b9b11a19).
+
+### Creating a Virtual Environment
+Be sure to create and activate the virtual environment before running the project! This will save your system storage space and won't create any problems when running the project. As a best practice, always deactivate the virtual environment when finished with the project. Review steps 4-9 under the, "*To Run Project*" header on how to go about this. <br>
+
+#### For Windows:
+1. Open the Git terminal by navigating to your File Explorer.
+2. Navigate to the directory where you want to create the virtual environment and clone the repo to. I recommend creating a folder with my username and choosing this as your directory. The directory could look something like this: *Documents/metguys_project*
+3. After creating the folder, go into it and right-click inside of it; then select, "**Show more options**".
+4. Next click on, "**Open Git Bash here**".
+5. In the git terminal, type the command: `python -m venv .venv`
+6. Now to activate the virtual environment type: `source .venv/Scripts/activate`
+7. You should now see **(.venv)** below your previous command.
+8. Proceed to, "*Clone Project*".
+
+#### For Linux/Mac:
+Similar steps to Windows but instead of Git, you'll use the Bash terminal:
+1. Locate and launch the Bash terminal by searching for it in your desktop menu.
+2. Navigate to the directory where you created your folder.
+3. In the terminal type: `python3 -m venv .venv`
+4. Activate the virtual environment by typing: `source .venv/bin/activate`
+5. You should now see **(.venv)** after your previous command.
+6. Proceed to, "*Clone Project*".
 
 ### Clone Project
-1. Click on my highlighted repo and navigate to my github [respository](https://github.com/metguy/trending-youtube-videos).
-2. From the top you'll see a green box that says, `<> Code`. Click on it and then under **HTTPS**, copy the url.
+1. If not already there, click on my highlighted repo and navigate to my github [respository](https://github.com/metguy/trending-youtube-videos).
+2. Once there, at the top you'll see a green box that says, `<> Code`. Click on it and then under **HTTPS**, copy the url.
 3. Open your *command prompt* (Windows users) or *terminal* (Linux/Mac users) and type the command: <br> `jupyter notebook` <br> It should pull up in your web browser after this command.
-4. Navigate to the directory you wish to clone the repo into. I recommend creating a folder with my username and choosing this as your directory. The directory could look something like this: *Documents/metguys_project*
+4. Navigate to the directory you created earlier to clone the repo into.
 5. In Jupyter Notebook, click on the following from the top: **File>New>Terminal**
 6. In the terminal under jupyter notebook, check to make sure you're in the directory that you created to clone the repo into.
 7. Now type: <br> ```git clone <paste my copied repo here>```
 8. Hit Enter! Now you can create the virtual environment.
 
-### Creating a Virtual Environment
-Be sure to create and activate the virtual environment before running the project! This will save your system storage space and won't create any problems when running the project. Always deactivate the virtual environment when finished with the project. <br>
-
-#### For Windows:
-1. Open the Git terminal by navigating to your File Explorer.
-2. Navigate to the directory you cloned the repo into.
-3. Right-click in the folder the repo is in and select, "**Show more options**".
-4. Then click on, "**Open Git Bash here**".
-5. In the git terminal, type the command: `python -m venv .venv`
-6. Now to activate the virtual environment type: `source .venv/Scripts/activate`
-7. You should now see **(.venv)** below your previous command.
-8. In the terminal type: <br> `pip install -r requirements.txt`
-9. You can now run the project worry free!
-10. When done reviewing, return to the git terminal and simply type: `deactivate` <br>
-
-#### For Linux/Mac:
-1. Locate and launch the Bash terminal by searching for it in your desktop menu.
-2. In the terminal type: `python3 -m venv .venv`
-3. Activate the virtual environment by typing: `source .venv/bin/activate`
-4. You should now see **(.venv)** after your previous command.
-5. In the terminal type: <br> `pip install -r requirements.txt`
-6. You can now run the project worry free!
-7. When done reviewing, return to the terminal and simply type: `deactivate` <br>
-
 ### To Run Project
-After completing the steps above, open the **2023_YouTuber_Analysis.ipynb** notebook and at the top select: *Run>Restart kernel and run all cells*. Repeat this process for both **2024_YouTuber_Analysis** and **Combined_YouTuber_Analysis** notebooks. Then, look through the notebooks and see how it was all done!
+Now you'll need to install the requirements file:
+1. Navigate back to the terminal where you created and activated the .venv (virtual environment).
+2. In the terminal type: <br> `pip install -r requirements.txt`
+3. You can now run the project worry free! <br>
+
+After completing the steps above, open the *2023_YouTuber_Analysis.ipynb* notebook and at the top select: **Run>Restart kernel and run all cells**. Repeat this process for both *2024_YouTuber_Analysis* and *Combined_YouTuber_Analysis* notebooks. Then, look through the notebooks and see how it was all done! When done reviewing the project, follow the steps below to delete and deactivate:
+
+4. If ready to deactivate and delete now, make sure you've closed out all Jupyter tabs in your browser before proceeding further; including the terminal you typed the `jupyter notebook` command into. **Leave the virtual environment terminal open.**
+5. Navigate inside the directory you cloned the repo in.
+6. Now you can delete the, "*trending_youtubers*" folder.
+7. Once deleted, you can return to the terminal where your virtual environment is and type `deactivate`. You should no longer see **(.venv)** in the terminal.
+8. Now you can go back to the folder and delete the virtual environment you created earlier. It should say: "*.venv*"
+9. Finally, delete the folder with my username: "*metguys_project*" <br>
+
+If you wish to remove any of the programs you downloaded in order to run this project, check out the YouTube link below:
+* [Uninstall programs](https://www.youtube.com/watch?v=mAUJdXZgMxo) - repeat the steps by searching for the program you want to remove.
 
 ### Notable Features
 * Annotated code in Jupyter Notebook, wrote clear code comments, and introduced this README section for better readability.
@@ -92,7 +109,7 @@ We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in 
 |<p>**Country**</p>|<p></p><p>**Total YouTubers**</p>|
 | :-: | :-: |
 |India|19|
-|United States|17|
+|United States|18|
 |South Korea|3|
 |Pakistan|2|
 |Russia|2|
@@ -118,11 +135,13 @@ This project will be ongoing as I plan to add more visuals but also add in new d
 3. Extract data using an API or by other scrape methods from a website on the top 50 YouTuber stats in half a year.
 
 ### Sources
-Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br> <br>
-<u>Kaggle</u>: <br> 
+Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br>
+
+<u>Kaggle - Uncleaned Datasets</u>: <br> 
 [Top YouTubers Worldwide](https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide) <br>
-[Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023) <br> <br>
-<u>YouTube</u>: <br>
+[Global YouTube Statistics 2023](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023) <br>
+
+<u>YouTube Channel - Country and Category</u>: <br>
 [SET India](https://www.youtube.com/channel/UCpEhnqL0y41EpW2TvWAHD7Q) <br>
 [Kids Diana Show](https://www.youtube.com/channel/UCk8GzjMOrta8yxDcKfylJYw) <br>
 [PewDiePie](https://www.youtube.com/user/pewdiepie) <br>
@@ -149,28 +168,34 @@ Here I've listed the sources for the uncleaned datasets I used in this project; 
 [JuegaGerman](https://www.youtube.com/channel/UCYiGq8XF7YQD00x7wAd62Zg) <br>
 [Mikecrack](https://www.youtube.com/Mikecrack) <br>
 [Bad Bunny](https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q) <br>
-[Voot Kids](https://www.youtube.com/channel/UCJg19noZp7-BYIGvypu_cow) <br> <br>
-<u>SPEAKRJ Stats</u>: <br> 
-[BLACKPINK](https://www.speakrj.com/audit/report/UCOmHUn--16B90oW2L6FRR3A/youtube) <br>
+[Voot Kids](https://www.youtube.com/channel/UCJg19noZp7-BYIGvypu_cow) <br>
+
+<u>SPEAKRJ Stats -'23 Uploads</u>: <br>
 [Goldmines](https://www.speakrj.com/audit/report/UCs570zdFq_NNA5OcV8chnHw/youtube/summary/2023-07-01/2023-07-31) <br>
 [5-Minute Crafts](https://www.speakrj.com/audit/report/UC57XAjJ04TY8gNxOWf-Sy0Q/youtube/summary/2023-07-01/2023-07-31) <br>
-[Justin Bieber](https://www.speakrj.com/audit/report/UCIwFjwMjI0y7PDBVEO9-bkQ/youtube) <br>
 [T-Series Bhakti Sagar](https://www.speakrj.com/audit/report/UCaayLD9i5x4MmIoVZxXSv_g/youtube/summary/2023-07-01/2023-07-30) <br>
 [LooLoo Kids - Nursery Rhymes and Children's Songs](https://www.speakrj.com/audit/report/UC4NALVCmcmL5ntpV0thoH6w/youtube/summary/2023-07-01/2023-07-31) <br>
-[Taylor Swift](https://www.speakrj.com/audit/report/UCqECaJ8Gagnn7YCbPEzWH6g/youtube) <br>
-[Ed Sheeran](https://www.speakrj.com/audit/report/UC0C-w0YjGpqDXGB8IHb662A/youtube) <br>
 [Badabun](https://www.speakrj.com/audit/report/UCYWOjHweP2V-8kGKmmAmQJQ/youtube/summary/2023-07-01/2023-07-31) <br>
 [A4](https://www.speakrj.com/audit/report/UC2tsySbe9TNrI-xh2lximHA/youtube/summary/2023-07-01/2023-07-31) <br>
-[Bad Bunny](https://www.speakrj.com/audit/report/UCiY3z8HAGD6BlSNKVn2kSvQ/youtube/summary/2023-07-01/2023-07-31) <br> <br>
-<u>HypeAuditor</u>: <br> 
-[BLACKPINK](https://hypeauditor.com/youtube/UCOmHUn--16B90oW2L6FRR3A/) <br>
-[Justin Bieber](https://hypeauditor.com/youtube/UCIwFjwMjI0y7PDBVEO9-bkQ/) <br>
-[Taylor Swift](https://hypeauditor.com/youtube/UCqECaJ8Gagnn7YCbPEzWH6g/) <br>
-[Ed Sheeran](https://hypeauditor.com/youtube/UC0C-w0YjGpqDXGB8IHb662A/) <br> <br>
-<u>Worldometer</u>: <br>
+[Bad Bunny](https://www.speakrj.com/audit/report/UCiY3z8HAGD6BlSNKVn2kSvQ/youtube/summary/2023-07-01/2023-07-31) <br>
+
+<u>Worldometer - '23 Pop:</u> <br>
 [Puerto Rico Pop.](https://www.worldometers.info/world-population/puerto-rico-population/#:~:text=Puerto%20Rico%202023%20population%20is,(and%20dependencies)%20by%20population.) <br>
 [Mexico Pop.](https://www.worldometers.info/world-population/mexico-population/#:~:text=Mexico%202023%20population%20is%20estimated,(and%20dependencies)%20by%20population.) <br>
 [Belarus Pop.](https://www.worldometers.info/demographics/belarus-demographics/) <br>
+
+<u>SPEAKRJ Stats -'24 Avg. Likes & Comments</u>: <br> 
+[BLACKPINK](https://www.speakrj.com/audit/report/UCOmHUn--16B90oW2L6FRR3A/youtube) <br>
+[Justin Bieber](https://www.speakrj.com/audit/report/UCIwFjwMjI0y7PDBVEO9-bkQ/youtube) <br>
+[Taylor Swift](https://www.speakrj.com/audit/report/UCqECaJ8Gagnn7YCbPEzWH6g/youtube) <br>
+[Ed Sheeran](https://www.speakrj.com/audit/report/UC0C-w0YjGpqDXGB8IHb662A/youtube) <br>
+
+
+<u>HypeAuditor - '24 Subscribers & Avg. Views</u>: <br> 
+[BLACKPINK](https://hypeauditor.com/youtube/UCOmHUn--16B90oW2L6FRR3A/) <br>
+[Justin Bieber](https://hypeauditor.com/youtube/UCIwFjwMjI0y7PDBVEO9-bkQ/) <br>
+[Taylor Swift](https://hypeauditor.com/youtube/UCqECaJ8Gagnn7YCbPEzWH6g/) <br>
+[Ed Sheeran](https://hypeauditor.com/youtube/UC0C-w0YjGpqDXGB8IHb662A/) <br>
 
 ## License
 For this github repository, the license used is an [MIT License](https://opensource.org/license/mit). <br>
