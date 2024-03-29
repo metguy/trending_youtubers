@@ -44,7 +44,7 @@ For this project, I utilized Jupyter Notebook as my editor and Git as the termin
 
 ### Clone Project
 1. Click on my highlighted repo and navigate to my github [respository](https://github.com/metguy/trending-youtube-videos).
-2. From there, click on the green box that says, "**Code**", then under **HTTPS**, copy the url.
+2. From the top you'll see a green box that says, `<> Code`. Click on it and then under **HTTPS**, copy the url.
 3. Open your *command prompt* (Windows users) or *terminal* (Linux/Mac users) and type the command: <br> `jupyter notebook` <br> It should pull up in your web browser after this command.
 4. Navigate to the directory you wish to clone the repo into. I recommend creating a folder with my username and choosing this as your directory. The directory could look something like this: *Documents/metguys_project*
 5. In Jupyter Notebook, click on the following from the top: **File>New>Terminal**
