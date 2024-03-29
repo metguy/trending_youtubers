@@ -41,7 +41,7 @@ I've listed two data dictionaries below giving a description on the column names
 ### Install and Setup
 For this project, I utilized Jupyter Notebook as my editor and Git as the terminal to setup the virtual environment. You'll also need Python in order to run the program. I recommend downloading all of these if not already installed on your system. 
 * *If* you have Windows, click [here](https://github.com/git-guides/install-git) to install Git.
-* For intructions on installing Jupyter Notebook, click [here](https://docs.jupyter.org/en/latest/install/notebook-classic.html). <br>
+* For instructions on installing Jupyter Notebook, click [here](https://docs.jupyter.org/en/latest/install/notebook-classic.html). <br>
 * Download Python [here](https://www.python.org/downloads/). <br>
 
 This project can also be ran in Google Colab. If you wish to do that instead, you can find more information on that by clicking on the links [here](https://saturncloud.io/blog/how-can-i-run-notebooks-of-a-github-project-in-google-colab/) and [there](https://medium.com/@steve7an/how-to-test-jupyter-notebook-from-github-via-google-colab-7dc4b9b11a19).
@@ -72,15 +72,15 @@ Similar steps to Windows but instead of Git, you'll use the Bash terminal:
 1. If not already there, click on my highlighted repo and navigate to my github [respository](https://github.com/metguy/trending-youtube-videos).
 2. Once there, at the top you'll see a green box that says, `<> Code`. Click on it and then under **HTTPS**, copy the url.
 3. Open your *command prompt* (Windows users) or *terminal* (Linux/Mac users) and type the command: <br> `jupyter notebook` <br> It should pull up in your web browser after this command.
-4. Navigate to the directory you created earlier to clone the repo into.
-5. In Jupyter Notebook, click on the following from the top: **File>New>Terminal**
-6. In the terminal under jupyter notebook, check to make sure you're in the directory that you created to clone the repo into.
+4. In Jupyter Notebook, navigate to the directory you created earlier.
+5. Click on the following from the top: **File>New>Terminal**
+6. In the terminal (inside Jupyter Notebook), check to make sure you're in the correct directory path that you created to clone the repo into.
 7. Now type: <br> ```git clone <paste my copied repo here>```
 8. Hit Enter! Now you can create the virtual environment.
 
 ### To Run Project
 Now you'll need to install the requirements file:
-1. Navigate back to the terminal where you created and activated the .venv (virtual environment).
+1. Navigate back to the terminal where you created and activated the .venv (virtual environment). For Windows, this will be Git. For Linux/Mac, Bash.
 2. In the terminal type: <br> `pip install -r requirements.txt`
 3. You can now run the project worry free! <br>
 
@@ -102,7 +102,7 @@ If you wish to remove any of the programs you downloaded in order to run this pr
 * Cleaned and prepped both datasets.
 * Concatenated the datasets using pandas.
 * Utilized Tableau and Matplotlib to visualize my insights and give a better overview of the results.
-* The virtual environment I intialized was a venv using the git bash terminal to create and activate it. To setup this environment, follow the instructions above. <br>
+* The virtual environment intialized was a venv using the git bash terminal to create/activate/deactivate it. <br>
 
 ### Results and Evaluation
 We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in gaining a similar amount of subscribers, although one YouTuber stood out adding on an estimated total of 70,100,000 subscribers from then to now! That specific YouTuber being MrBeast. This blew my mind so I double checked the data and sure enough, the information is correct! Some other insights I gathered was which countries had the most popular YouTubers over this half year period, that being in order from most to least: <br> 
@@ -126,13 +126,13 @@ We were able to see a steady trend of the top 50 YouTubers from 2023 to 2024 in 
 |United Kingdom|1| <br>
 
 It makes sense India would take the lead since the overall population count is the highest in this dataset (and second highest in the world)!
-Another neat insight was into the most popular categories with Music & Dance being at the top; followed in order (from least to greatest) by Educational content, Film & Animation, Entertainment, Sports, Gaming, DIY Tutorials, and News & Politics.
+Another neat insight was into the most popular categories with Music & Dance being at the top; followed in descending order by Educational content, Film & Animation, Entertainment, Sports, Gaming, DIY Tutorials, and News & Politics.
 
 ### Future Work
 This project will be ongoing as I plan to add more visuals but also add in new data six months from now to get a more indepth analysis on the trends.
-1. Go through and remove special characters in Jupyter Notebooks as best practice. This will entail me needing to recreate current Tableau visualizations, update the code & recreate csv files, and update the README section. So I'll start  after project deadline.
+1. Go through and remove special characters in Jupyter Notebooks as best practice. This will entail me needing to recreate current Tableau visualizations, update the code & recreate csv files, and update the README section. I'll start this process after the project deadline.
 2. I'd like to add more worksheets to my Tableau Dashboard, creating visualizations with the columns '23 Uploads, '23 Video Views, '23 Pop, '24 Avg. Views, '24 Avg. Likes, and '24 Avg. Comments.
-3. Extract data using an API or by other scrape methods from a website on the top 50 YouTuber stats in half a year.
+3. Extract data using an API or by other web scraping methods on the top 50 YouTuber statistics, half a year from now.
 
 ### Sources
 Here I've listed the sources for the uncleaned datasets I used in this project; along with the site sources of any missing or incorrect information requiring research. <br>
