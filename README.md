@@ -2,7 +2,7 @@
 ![alt text](https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg)
 
 ### Project Overview
-Hi, y'all! In this project we'll be exploring the data analysis of the top 50 YouTubers six months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I just don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I, myself, do have a couple favorite YouTubers! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
+Hi, y'all! In this project we'll be exploring the data analysis of the top 50 YouTubers six months a part, from July 2023 to January 2024. What led me to choose this topic was how often I found myself watching YouTube videos. When I have a lot going on at once, I tend to avoid NetFlix and streaming services of the like because I can easily binge watch a season in a couple of days. It's rather unhealthy and being preoccupied with wrapping up school among other things lately, I don't have time for it so I avoid it like the plague! Instead, I'll watch YouTube. YouTube gives me a bit more control on the length of time for whatever video interests me and I, myself, do have a couple favorite YouTubers! I thought it would be pretty interesting to see which YouTubers were consistently at the top within a half year period and if any of my favorites made the list. I wanted to make this project user friendly so I gave step-by-step instructions and shared hyperlinks on how to perform this on multiple systems. So, without further a do, let's get to it and see what we find! <br> <br>
 
 #### Click the link below for a quick look at my Tableau Dashboard: <br>
 * [YouTuber Visuals](https://public.tableau.com/views/YouTuberVisuals/YouTuberVisuals?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) <br> <br>
@@ -14,18 +14,19 @@ I've added comments in the markdown cells throughout the setup of the project to
 I've listed two data dictionaries below giving a description on the column names and categories.
 |<p>**Column Title**</p>|<p></p><p>**Description**</p>|
 | :-: | :-: |
-|'23/'24 YouTubers|YouTubers of 2023/2024|
-|'23/'24 Subs|Subscriber count of each YouTuber|
-|'23/'24 Rank|How each YouTuber ranked based on subscriber count|
-|'23/'24 Category|Category of YouTuber's channel|
-|'23/'24 Country|Country YouTuber's channel originates from|
-|'23 Uploads|Total number of videos uploaded on the channel|
-|'23 Video Views|Total views across all videos on the channel|
-|'23 Pop.|Total population of the country|
-|'24 Avg. Views|Average number of views on the channel|
-|'24 Avg. Likes|Average number of likes on the channel|
-|'24 Avg. Comments|Average number of comments on the channel| 
-|Total_Subs_Gained|Total number of subscribers gained over the half year period|<br>
+|23/24_youtubers|YouTubers of 2023/2024|
+|23/24_subs|Subscriber count of each YouTuber|
+|23/24_rank|How each YouTuber ranked based on subscriber count|
+|23/24_category|Category of YouTuber's channel|
+|23/24_country|Country YouTuber's channel originates from|
+|23_uploads|Total number of videos uploaded on the channel|
+|23_video_views|Total views across all videos on the channel|
+|23_pop.|Total population of the country|
+|24_avg_views|Average number of views on the channel|
+|24_avg_likes|Average number of likes on the channel|
+|24_avg_comments|Average number of comments on the channel|
+|distinct_youtuber_count|Total number of YouTubers in each country|
+|total_subs_gained|Total number of subscribers gained over the half year period|<br>
 
 |<p>**Category**</p>|<p></p><p>**Description**</p>|
 | :-: | :-: |
@@ -198,5 +199,5 @@ Here I've listed the sources for the uncleaned datasets I used in this project; 
 [Ed Sheeran](https://hypeauditor.com/youtube/UC0C-w0YjGpqDXGB8IHb662A/) <br>
 
 ## License
-For this github repository, the license used is an [MIT License](https://opensource.org/license/mit). <br>
+For this GitHub repository, the license used is an [MIT License](https://opensource.org/license/mit). <br>
 For the, "*Top YouTubers Worldwide*" csv used in this project, a [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) license was used.
